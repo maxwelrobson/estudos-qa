@@ -34,7 +34,7 @@ Quando eu inserir esses dados na área do login do sistema
 
 Então o sistema deve realizar o login com sucesso
 
-## Login com senha inválida
+### Cenário: Login com senha inválida
 
 Dado que eu esteja na tela de login
 
@@ -44,7 +44,7 @@ E apertar no botão "Entrar"
 
 Então o sistema deve mostrar a mensagem: "Usuário ou senha inválidos"
 
-## Login com usuário inválido
+### Cenário: Login com usuário inválido
 
 Dado que eu esteja na tela do login
 
@@ -54,7 +54,7 @@ E apertar no botão "Entrar"
 
 Então o sistema deve mostrar a mensagem: "Usuário ou senha inválidos"
 
-## Bloquear conta
+### Cenário: Bloquear conta
 
 Dado que eu esteja na tela de login
 
@@ -66,7 +66,7 @@ E apertar no botão "Entrar" 5 vezes consecutivas
 
 Então a conta deve ser bloqueada
 
-## Campos obrigatórios
+### Cenário: Campos obrigatórios
 
 Dado que eu esteja na tela de login
 
