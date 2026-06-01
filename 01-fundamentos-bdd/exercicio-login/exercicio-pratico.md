@@ -3,17 +3,25 @@
 ## Uma aplicação possui uma tela de login com:
 
 campo e-mail;
+
 campo senha;
+
 botão "Entrar".
 
 ## Regras:
 
 O e-mail deve possuir formato válido.
+
 A senha deve possuir no mínimo 8 caracteres.
+
 Usuário e senha corretos permitem acesso ao sistema.
+
 Usuário ou senha inválidos exibem a mensagem:
+
 "Usuário ou senha inválidos".
+
 Após 5 tentativas inválidas consecutivas, a conta deve ser bloqueada.
+
 Campos obrigatórios não preenchidos devem exibir mensagens de validação.
 
 ## Casos de Teste
